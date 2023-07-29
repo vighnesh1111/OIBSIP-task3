@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    padding-left: 70px;
+    color: white;
+    background-color: greenyellow;
+}
+
+.main {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#newtask {
+    padding: 30px 20px;
+}
+
+#newtask input {
+    width: 70%;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#newtask input:hover {
+    border-color: greenyellow;
+}
+
+#newtask input:focus {
+    outline: none;
+    border-color: greenyellow;
+}
+
+#newtask button {
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: greenyellow;
+    border: none;
+    color: white;
+}
+
+#push:hover {
+    color: black;
+}
+
+#task {
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+
+.task {
+    height: 50%;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+}
+
+.task span {
+    font-size: 25px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.task button {
+    position: relative;
+    top: 0px;
+    right: 20px;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: greenyellow;
+    border: none;
+    color: white;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+input {
+    text-align: center;
+}
+
+#task :hover {
+    color: black;
+}
